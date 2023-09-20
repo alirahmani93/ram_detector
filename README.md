@@ -15,7 +15,7 @@ Ram Detector project will recorde all ram states in intervals
 > source ./init.sh
 
 ## Run Server
-> uvicorn src.server.api:app --reload
+> source ./runserver.sh
 
 ## Run Tests
 > export PYTHONPATH=${pwd}:$PYTHONPATH
